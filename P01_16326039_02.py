@@ -1,0 +1,13 @@
+# NIM/Nama  : Putri Dayita Saraswati
+# Tanggal   : 1 Oktober 2026
+# Deskripsi : Problem 2
+
+k = int(input("Masukkan jumlah kata yang sudah diketik: "))
+s = int(input("Masukkan waktu yang sudah berlalu (detik): "))
+d = int(input("Masukkan total durasi lomba (detik): "))
+m = int(input("Masukkan target WPM minimal: "))
+kecepatan = k/(s / 60)
+total_kata_yang_dibutuhkan = m*(d/60)
+perlu_mengetik = (total_kata_yang_dibutuhkan)-(k)
+print(f"kecepatan magnetik tuan Mik saat ini adalah {kecepatan}WPM")
+print(f"tuan Mik harus mengetik {perlu_mengetik} kata lagi untuk mencapai target")

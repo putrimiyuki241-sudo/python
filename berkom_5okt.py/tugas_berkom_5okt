@@ -1,0 +1,11 @@
+def CetakArray(T, N):
+    if N == 0: 
+        print("array kosong")
+    else:
+        for i in range(N):
+            print(f"[{i}] {T[i]}")
+    
+T = [10, 9, 6, 5, 7]
+N = 5
+
+CetakArray(T,N)
